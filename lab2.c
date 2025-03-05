@@ -2,9 +2,12 @@
 #include <stdio.h>
 
 int function(int x){
-	x=x-2;
-	x=function(x);
-	return x;
+	
+	
+		x=x-2;
+		if(x>0)
+			x=function(x);
+		return x;
 }
 
 int main(){
@@ -14,7 +17,7 @@ int main(){
 		a=function(a);
 		i++;
 	}
-	printf("%d", i);
+	printf("%d\n", i);
 	return 0;	
 }
 
