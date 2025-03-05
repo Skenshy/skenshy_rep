@@ -11,6 +11,7 @@ int function(int x){
 }
 
 int main(){
+	//te omor seni oldururum
 	int a=30, i=0;
 	
 	while (a>0){
